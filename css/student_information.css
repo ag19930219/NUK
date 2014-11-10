@@ -1,0 +1,382 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS reset */
+
+/* 主要CSS */
+
+body{
+  font-family:Arial,微軟正黑體;
+  background-color:#f2f1eb;
+}
+.wrap{
+  width:100%;
+}
+h1{
+  color:white;
+  text-align:center;
+  text-decoration:none;
+  line-height:100px;
+  font-size:32px;
+}
+h1 a{
+  color:white;
+  text-decoration:none;
+  margin:0 auto;
+}
+h3{
+  display: block;
+  color:#8c1515;
+  text-decoration:none;
+  font-size:20px;
+  font-weight:bolder;
+  margin:10px 0px 10px 0px;
+}
+a{
+  color:black;
+  text-decoration:none;
+  margin:0 auto;
+}
+.header{
+  height:100px;
+  background-color:#8c1515;
+}
+.header_content{
+  width:1000px;
+  height:100px;
+  margin:0 auto;
+}
+.logo{
+  width:250px;
+  height:100px;
+  float:left;
+}
+.menu{
+  width:700px;
+  height:100px;
+  float:left;
+  margin-left:10px;
+}
+.content{
+  width:1000px;
+  margin:0 auto;
+}
+.clear{
+  clear:both;
+}
+.slideshow{
+  width:640px;
+  height:300px;
+  margin-top:20px;
+  float:left;
+}
+.boxes{
+	position:relative;
+	float: right;
+	margin-top:-30px;
+	margin-right:8px;
+	height:30px;
+}
+.box a{
+background-color:#8c1515;
+text-decoration:none;
+color:#8c1515;
+margin:3px 3px 0 3px;
+height:20px !important;
+width:20px !important;
+line-height:20px;
+display:block;
+float:left;
+}
+.bottons{
+  width:350px;
+  height:300px;
+  margin-top:20px;
+  float:left;
+  margin-left:10px;
+}
+.list{
+  margin-top:20px;
+  margin-bottom:20px;
+  width:1000px;
+  height:150px;
+  float:left;
+}
+.list img{
+  width:150px;
+  height:150px;
+  float:left;
+}
+.information{
+  float:left;
+  margin-left:30px;
+}
+.information li{
+  margin-bottom:5px;
+}
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #8c1515;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #8c1515;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8c1515), color-stop(1, #8c1515) );
+	background:-moz-linear-gradient( center top, #8c1515 5%, #8c1515 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8c1515', endColorstr='#8c1515');
+	background-color:#8c1515;
+	-webkit-border-top-left-radius:42px;
+	-moz-border-radius-topleft:42px;
+	border-top-left-radius:42px;
+	-webkit-border-top-right-radius:42px;
+	-moz-border-radius-topright:42px;
+	border-top-right-radius:42px;
+	-webkit-border-bottom-right-radius:42px;
+	-moz-border-radius-bottomright:42px;
+	border-bottom-right-radius:42px;
+	-webkit-border-bottom-left-radius:42px;
+	-moz-border-radius-bottomleft:42px;
+	border-bottom-left-radius:42px;
+	text-indent:0px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial, 微軟正黑體;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	height:90px;
+	line-height:90px;
+	width:90px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #810e05;
+  margin:30px 10px 0px 10px;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+	background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+	background-color:#c62d1f;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+.footer{
+  height: 180px;
+  background: #8c1515;
+}
+.footer_content{
+  width:1000px;
+  height:180px;
+  margin:0 auto;
+  padding-top:10px;
+}
+.footer .logo img{
+  width: 180px;
+  float: left;
+  margin-top:60px;
+}
+.detail_1{
+  margin: 10px;
+  margin-left:10px;
+  margin-top:40px;
+  width: 400px;
+  float: left;
+  font-size:15px;
+  font-family:微軟正黑體;
+  color:#F1EBE4;
+  line-height: 24px;	
+}
+.gap img{
+  margin: 10px;
+	margin-left: 30px;
+	margin-right: 50px;
+  margin-top:31px;
+	width: 1px;
+	height: 120px;
+	float: left;
+}
+.detail_2{
+  margin: 10px;
+  margin-top:31px;
+  width: 100px;
+  float: left;
+}
+.detail_2 li a{
+  font-size:15px;
+  font-family:微軟正黑體;
+  color:#E4D4BC;
+  line-height: 28px; 
+  text-decoration:none;	
+}
+.content2{
+  width: 940px;
+  height: 400px;
+  background: #f2f1eb;
+  margin:0 auto;
+  padding-top:20px;
+  padding-left:30px;
+  padding-right:30px;
+  padding-bottom:20px;
+}
+
+/*上方Menu*/
+/* ---------- 大小與定位 ---------- */
+#menu {
+	/* 選單大小 */
+  width:700px;
+  height:100px;
+  float:left;
+  margin-left:10px;
+  font-size:20px;
+}
+#menu ul {
+	/* 取消ul樣式符號 */
+	list-style-type:none;
+	/* 重設ul邊界與留白為零 */
+	margin-top:50px;
+  float:right;
+	padding:0; 
+	/* 內有浮動元件時，需設overflow才會自動調整大小 */
+	overflow:auto;
+}
+#menu ul li {
+	/* 利用float讓第一層li水平排列 */
+	float:left;
+}
+#menu ul li a {
+	/* 將a改為區塊元件，以便指定寬高 */
+	display:block;
+	/* 這邊也要設float，否則IE6會以100%寬度顯示 */
+	float:left;
+	/* 固定高度 */
+	height:30px;
+	width: 100px;
+	text-align: center;
+}
+#menu ul li ul {
+	/* 讓第二層ul跳脫文件流以利定位 */
+	position:absolute;
+	/* 固定寬度 */
+	width:100px;
+	/* 避免出現捲軸 */
+	overflow:visible;
+	/* 讓ul與母階層li相同位置 */
+	clear:left;
+	margin-top: 30px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+#menu ul li ul li {
+	/* 覆寫繼承自第一層的浮動設定 */
+	float:none;
+	text-align: center;
+}
+#menu ul li ul li a {
+	/* 覆寫繼承自第一層的浮動設定 */
+	float:none;
+	width: 100%;/* 註：display、height、padding繼承第一層的設定 */
+}
+#menu ul li ul li ul {
+	margin-top: -30px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 100px;
+	width: 100%;
+}
+#menu ul li ul li ul li {
+/* width、float繼承第二層，免設定 */
+}
+#menu ul li ul li ul li a {
+/* width、float繼承第二層，免設定 */
+}
+/* ---------- 隱藏與顯示階層 ---------- */
+#menu ul li ul {
+	/* 預先隱藏第二層 */
+	visibility:hidden;
+}
+#menu ul li:hover ul {
+	/* 觸動第一層時，顯示第二層 */
+	visibility:visible;
+}
+#menu ul li:hover ul li ul {
+	/* 顯示第二層時，隱藏第三層，避免同時彈出 */
+	visibility:hidden;
+}
+#menu ul li ul li:hover ul {
+	/* 觸動第二層時，顯示第三層 */
+	visibility:visible;
+}
+#menu ul li ul li:hover ul li ul {
+	/* 顯示第三層時，隱藏第四層，避免同時彈出 */
+	visibility:hidden;
+}
+#menu ul li ul li ul li:hover ul {
+	/* 觸動第三層時，顯示第四層 */
+	visibility:visible;
+}
+/* ---------- 以下為美化用，非必需 ---------- */
+
+
+/* 第一層ul背景色彩與邊框 */
+#menu ul {
+	background:#8c1515;
+}
+/* 第一層a字型 */
+#menu ul li a {
+	color:#f2f1eb;
+	text-decoration:none;
+	line-height: 30px;
+}
+/*第二層ul背景色彩與邊框  */
+#menu ul li ul {
+	background:#f2f1eb;
+}
+/* 觸動第一層li時，改變背景色 */
+#menu ul li:hover, #menu ul li a:hover {
+	background:gray;
+}
+#menu ul li:hover a {
+	 color:#333333;
+}
+/*上方Menu*/
