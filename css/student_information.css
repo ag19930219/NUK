@@ -66,14 +66,6 @@ h1 a{
   text-decoration:none;
   margin:0 auto;
 }
-h3{
-  display: block;
-  color:#8c1515;
-  text-decoration:none;
-  font-size:20px;
-  font-weight:bolder;
-  margin:10px 0px 10px 0px;
-}
 a{
   color:black;
   text-decoration:none;
@@ -137,24 +129,57 @@ float:left;
   float:left;
   margin-left:10px;
 }
+.bottons h3{
+  width:350px;
+  height:40px;
+  text-align:center;
+  color:#8c1515;
+  font-size:40px;
+  margin-top:20px;
+  font-weight:bolder;
+}
 .list{
   margin-top:20px;
   margin-bottom:20px;
   width:1000px;
-  height:150px;
+  height:200px;
   float:left;
 }
 .list img{
-  width:150px;
-  height:150px;
+  width:200px;
+  height:200px;
   float:left;
 }
 .information{
   float:left;
   margin-left:30px;
+  height:200px;
 }
-.information li{
+.information h3{
+  display: block;
+  color:#8c1515;
+  text-decoration:none;
+  font-size:20px;
+  font-weight:bolder;
+  margin:10px 0px 10px 0px;
+}
+.information ul{
+  width:730px;
+  height:150px;      
+}
+.information ul li{
   margin-bottom:5px;
+  margin-top:5px;
+  width:200px;
+  white-space : normal;
+  display:block;
+  float:left;
+}
+.information ul li a:hover{
+  color: #FFA011;
+  position: relative;
+  top: 1px;
+  left: 1px;
 }
 .button {
 	-moz-box-shadow:inset 0px 1px 0px 0px #8c1515;
@@ -247,6 +272,12 @@ float:left;
   color:#E4D4BC;
   line-height: 28px; 
   text-decoration:none;	
+}
+.detail_2 li a:hover{
+  color: #FFA011;
+  position: relative;
+  top: 1px;
+  left: 1px;
 }
 .content2{
   width: 940px;
@@ -373,7 +404,10 @@ float:left;
 	background:#f2f1eb;
 }
 /* 觸動第一層li時，改變背景色 */
-#menu ul li:hover, #menu ul li a:hover {
+#menu ul li:hover{
+  background:#f2f1eb;
+} 
+#menu ul li a:hover {
 	background:gray;
 }
 #menu ul li:hover a {
